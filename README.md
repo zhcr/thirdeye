@@ -28,6 +28,8 @@ After all rounds, final positions are embedded via `all-MiniLM-L6-v2` and compar
 
 ## Setup
 
+> **Local use only.** This script calls the Anthropic API directly with your key. Run it on your own machine — never deploy it anywhere that would expose your `ANTHROPIC_API_KEY`.
+
 ```
 pip install -r requirements.txt
 export ANTHROPIC_API_KEY="sk-..."
